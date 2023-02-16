@@ -6,204 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ issuer }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.auth0.com/ulp/react-components/1.66.3/css/main.cdn.min.css" />
     <link href="{{ url .ReqPath "static/main.css" }}" rel="stylesheet">
     <link href="{{ url .ReqPath "theme/styles.css" }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.auth0.com/ulp/react-components/1.66.3/css/main.cdn.min.css" />
 
     <link rel="icon" href="{{ url .ReqPath "theme/favicon.png" }}">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
     <meta name="robots" content="noindex, nofollow" />
-
-
-
-    <style id="custom-styles-container">
-
-
-
-
-
-     :root {
-       --primary-color: #ea565a;
-     }
-     :root {
-       --button-font-color: #ffffff;
-     }
-     :root {
-       --secondary-button-border-color: #c9cace;
-       --social-button-border-color: #c9cace;
-       --radio-button-border-color: #c9cace;
-     }
-     :root {
-       --secondary-button-text-color: #1e212a;
-     }
-     :root {
-       --link-color: #ea565a;
-     }
-     :root {
-       --title-font-color: #003852;
-     }
-     :root {
-       --font-default-color: #003852;
-     }
-     :root {
-       --widget-background-color: #ffffff;
-     }
-     :root {
-       --box-border-color: #c9cace;
-     }
-     :root {
-       --font-light-color: #65676e;
-     }
-     :root {
-       --input-text-color: #000000;
-     }
-     :root {
-       --input-border-color: #c9cace;
-       --border-default-color: #c9cace;
-     }
-     :root {
-       --input-background-color: #ffffff;
-     }
-     :root {
-       --icon-default-color: #65676e;
-     }
-     :root {
-       --error-color: #d03c38;
-       --error-text-color: #003852;
-     }
-     :root {
-       --success-color: #4ac985;
-     }
-     :root {
-       --base-focus-color: #005279;
-       --transparency-focus-color: rgba(0,82,121, 0.15);
-     }
-     :root {
-       --base-hover-color: #003852;
-       --transparency-hover-color: rgba(0,56,82, var(--hover-transparency-value));
-     }
-
-
-
-
-     html, :root {
-       font-size: 16px;
-       --default-font-size: 16px;
-     }
-     body {
-       --title-font-size: 1.5rem;
-       --title-font-weight: var(--font-default-weight);
-     }
-     .c8573b354 {
-       font-size: 0.875rem;
-       font-weight: var(--font-default-weight);
-     }
-     .c350e3884 {
-       font-size: 0.875rem;
-       font-weight: var(--font-default-weight);
-     }
-     .c7303c95e, .c5f42a4df {
-       margin-top: 3px;
-       font-size: 1rem;
-       font-weight: var(--font-default-weight);
-     }
-     .ce528f9ca {
-       font-size: 1rem;
-       font-weight: var(--font-default-weight);
-     }
-     .c8188ade0, .c27335968 {
-       font-size: 0.875rem;
-       font-weight: var(--font-bold-weight) !important;
-     }
-
-
-
-
-     :root {
-       --button-border-width: 1px;
-       --social-button-border-width: 1px;
-       --radio-border-width: 1px;
-     }
-     body {
-       --button-border-radius: 0px;
-       --radio-border-radius: 0px;
-     }
-     :root {
-       --input-border-width: 1px;
-     }
-     body {
-       --input-border-radius: 0px;
-     }
-     :root {
-       --border-radius-outer: 0px;
-     }
-     :root {
-       --box-border-width: 1px;
-     }
-
-
-
-
-
-     body {
-       --logo-alignment: 0 auto;
-     }
-
-
-     .c77d9f8c8 {
-       content: url('https://s3-portal-2020.conny.de/conny_landing_page/conny_logo/conny_logo_w_tagline.svg');
-     }
-
-     body {
-       --logo-height: 66px;
-     }
-     .c77d9f8c8 {
-       height: var(--logo-height);
-     }
-
-
-     body {
-       --header-alignment: center;
-     }
-
-     .cabd142a5 {
-       display: block;
-       flex-direction: column;
-     }
-     .cabd142a5 form {
-       order: 3;
-     }
-     .cabd142a5 ._alternate-action {
-       order: 4
-     }
-     .cabd142a5 > .cdfc812be {
-       order: 2;
-       margin-bottom: 24px;
-     }
-     .cabd142a5 .ca89ede77 {
-       order: 1;
-       margin-top: 0;
-     }
-
-
-
-     .cb076cf3a {
-       --page-background-alignment: center;
-     }
-     body {
-       --page-background-color: #eef2f6;
-     }
-     .cb076cf3a {
-       --page-background-image: url(https://s3-portal-2020.conny.de/conny_landing_page/conny-blob-shapes/conny-BG-lightblue-double.svg);
-     }
-
-
-
-
-
-    </style>
     <noscript>
       <style>
        /* We use !important to override the default for js enabled */
@@ -220,6 +31,7 @@
        }
       </style>
     </noscript>
+
   </head>
   <body>
     <div class="c79275c74 cb076cf3a">
@@ -257,7 +69,7 @@
                     {{ $o = $c }}
                   {{ end }}
                 {{end}}
-                {{ if eq $g.Type "google" }}
+                {{ if eq $g.Type "google"}}
                 <div class="c8ce8fafa ca89ede77">
                   <a href="{{ $g.URL }}">
                       <button type="submit" class="c343cea71 c269d9534 c7eb042cb" data-provider="google" data-action-button-secondary="true">
