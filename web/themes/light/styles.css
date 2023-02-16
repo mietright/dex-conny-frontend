@@ -1,0 +1,303 @@
+:root {
+    --primary-color: #ea565a;
+  }
+:root {
+    --button-font-color: #ffffff;
+  }
+:root {
+    --secondary-button-border-color: #c9cace;
+    --social-button-border-color: #c9cace;
+    --radio-button-border-color: #c9cace;
+  }
+:root {
+    --secondary-button-text-color: #1e212a;
+  }
+:root {
+    --link-color: #ea565a;
+  }
+:root {
+    --title-font-color: #003852;
+  }
+:root {
+    --font-default-color: #003852;
+  }
+:root {
+    --widget-background-color: #ffffff;
+  }
+:root {
+    --box-border-color: #c9cace;
+  }
+:root {
+    --font-light-color: #65676e;
+  }
+:root {
+    --input-text-color: #000000;
+  }
+:root {
+    --input-border-color: #c9cace;
+    --border-default-color: #c9cace;
+  }
+:root {
+    --input-background-color: #ffffff;
+  }
+:root {
+    --icon-default-color: #65676e;
+  }
+:root {
+    --error-color: #d03c38;
+    --error-text-color: #003852;
+  }
+:root {
+    --success-color: #4ac985;
+  }
+:root {
+    --base-focus-color: #005279;
+    --transparency-focus-color: rgba(0,82,121, 0.15);
+  }
+:root {
+    --base-hover-color: #003852;
+    --transparency-hover-color: rgba(0,56,82, var(--hover-transparency-value));
+  }
+
+
+
+
+html, :root {
+    font-size: 16px;
+    --default-font-size: 16px;
+  }
+
+
+
+body {
+    --title-font-size: 1.5rem;
+    --title-font-weight: var(--font-default-weight);
+  }
+.c8573b354 {
+    font-size: 0.875rem;
+    font-weight: var(--font-default-weight);
+  }
+.c350e3884 {
+    font-size: 0.875rem;
+    font-weight: var(--font-default-weight);
+  }
+.c7303c95e, .c5f42a4df {
+    margin-top: 0px;
+    justify-content: left;
+    font-size: 1rem;
+    font-weight: var(--font-default-weight);
+  }
+.ce528f9ca {
+    font-size: 1rem;
+    font-weight: var(--font-default-weight);
+  }
+.c8188ade0, .c27335968 {
+    font-size: 0.875rem;
+    font-weight: var(--font-bold-weight) !important;
+  }
+
+
+
+
+:root {
+    --button-border-width: 1px;
+    --social-button-border-width: 1px;
+    --radio-border-width: 1px;
+  }
+body {
+    --button-border-radius: 0px;
+    --radio-border-radius: 0px;
+  }
+:root {
+    --input-border-width: 1px;
+  }
+body {
+    --input-border-radius: 0px;
+  }
+:root {
+    --border-radius-outer: 0px;
+  }
+:root {
+    --box-border-width: 1px;
+  }
+
+
+
+
+
+    body {
+      --logo-alignment: 0 auto;
+    }
+
+
+    .c77d9f8c8 {
+      content: url('https://s3-portal-2020.conny.de/conny_landing_page/conny_logo/conny_logo_w_tagline.svg');
+    }
+
+body {
+    --logo-height: 66px;
+  }
+  .c77d9f8c8 {
+    height: var(--logo-height);
+  }
+
+
+    body {
+      --header-alignment: center;
+    }
+
+.cabd142a5 {
+    display: block;
+    flex-direction: column;
+  }
+  .cabd142a5 form {
+    order: 3;
+  }
+  .cabd142a5 ._alternate-action {
+    order: 4
+  }
+  .cabd142a5 > .cdfc812be {
+    order: 2;
+    margin-bottom: 24px;
+  }
+  .cabd142a5 .ca89ede77 {
+    order: 1;
+    margin-top: 0;
+  }
+
+
+
+.cb076cf3a {
+    --page-background-alignment: center;
+  }
+body {
+    --page-background-color: #eef2f6;
+  }
+.cb076cf3a {
+    --page-background-image: url(https://s3-portal-2020.conny.de/conny_landing_page/conny-blob-shapes/conny-BG-lightblue-double.svg);
+  }
+      /* By default, hide features for javascript-disabled browsing */
+      /* We use !important to override any css with higher specificity */
+      /* It is also overriden by the styles in <noscript> in the header file */
+      .no-js {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }
+/* .theme-body { */
+/*   background-color: #efefef; */
+/*   color: #333; */
+/*   font-family: 'Source Sans Pro', Helvetica, sans-serif; */
+/* } */
+
+/* .theme-navbar { */
+/*   background-color: #fff; */
+/*   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); */
+/*   color: #333; */
+/*   font-size: 13px; */
+/*   font-weight: 100; */
+/*   height: 46px; */
+/*   overflow: hidden; */
+/*   padding: 0 10px; */
+/* } */
+
+/* .theme-navbar__logo-wrap { */
+/*   display: inline-block; */
+/*   height: 100%; */
+/*   overflow: hidden; */
+/*   padding: 10px 15px; */
+/*   width: 300px; */
+/* } */
+
+/* .theme-navbar__logo { */
+/*   height: 100%; */
+/*   max-height: 25px; */
+/* } */
+
+/* .theme-heading { */
+/*   font-size: 20px; */
+/*   font-weight: 500; */
+/*   margin-bottom: 10px; */
+/*   margin-top: 0; */
+/* } */
+
+/* .theme-panel { */
+/*   background-color: #fff; */
+/*   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+/*   padding: 30px; */
+/* } */
+
+/* .theme-btn-provider { */
+/*   background-color: #fff; */
+/*   color: #333; */
+/*   min-width: 250px; */
+/* } */
+
+/* .theme-btn-provider:hover { */
+/*   color: #999; */
+/* } */
+
+/* .theme-btn--primary { */
+/*   background-color: #333; */
+/*   border: none; */
+/*   color: #fff; */
+/*   min-width: 200px; */
+/*   padding: 6px 12px; */
+/* } */
+
+/* .theme-btn--primary:hover { */
+/*   background-color: #666; */
+/*   color: #fff; */
+/* } */
+
+/* .theme-btn--success { */
+/*   background-color: #2FC98E; */
+/*   color: #fff; */
+/*   width: 250px; */
+/* } */
+
+/* .theme-btn--success:hover { */
+/*   background-color: #49E3A8; */
+/* } */
+
+/* .theme-form-row { */
+/*   display: block; */
+/*   margin: 20px auto; */
+/* } */
+
+/* .theme-form-input { */
+/*   border-radius: 4px; */
+/*   border: 1px solid #CCC; */
+/*   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); */
+/*   color: #666; */
+/*   display: block; */
+/*   font-size: 14px; */
+/*   height: 36px; */
+/*   line-height: 1.42857143; */
+/*   margin: auto; */
+/*   padding: 6px 12px; */
+/*   width: 250px; */
+/* } */
+
+/* .theme-form-input:focus, */
+/* .theme-form-input:active { */
+/*   border-color: #66AFE9; */
+/*   outline: none; */
+/* } */
+
+/* .theme-form-label { */
+/*   font-size: 13px; */
+/*   font-weight: 600; */
+/*   margin: 4px auto; */
+/*   position: relative; */
+/*   text-align: left; */
+/*   width: 250px; */
+/* } */
+
+/* .theme-link-back { */
+/*   margin-top: 4px; */
+/* } */
